@@ -1,6 +1,7 @@
 # Base system software
 choco install git -y
 choco install msysgit -y
+choco install lockhunter -y
 
 # Browsers
 choco install googlechrome -y
