@@ -11,6 +11,7 @@ choco install visualstudiocode -y
 
 # Development
 choco install nodist -y
+npm install rimraf -g
 
 # IIS
 choco install IIS7 -source webpi
