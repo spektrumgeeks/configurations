@@ -32,14 +32,17 @@
 	<s:Boolean x:Key="/Default/Housekeeping/UpgradeFromExceptionReport/UpgradePerformed/@EntryValue">True</s:Boolean>
 	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=26228FC7A3C06544BFE84AB5D80F68A6/@KeyIndexDefined">True</s:Boolean>
 	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=26228FC7A3C06544BFE84AB5D80F68A6/Applicability/=Live/@EntryIndexedValue">True</s:Boolean>
-	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=26228FC7A3C06544BFE84AB5D80F68A6/Description/@EntryValue">Async Nunit Test</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=26228FC7A3C06544BFE84AB5D80F68A6/Description/@EntryValue">Async Xunit Test</s:String>
 	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=26228FC7A3C06544BFE84AB5D80F68A6/Reformat/@EntryValue">True</s:Boolean>
 	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=26228FC7A3C06544BFE84AB5D80F68A6/Shortcut/@EntryValue">atest</s:String>
 	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=26228FC7A3C06544BFE84AB5D80F68A6/ShortenQualifiedReferences/@EntryValue">True</s:Boolean>
-	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=26228FC7A3C06544BFE84AB5D80F68A6/Text/@EntryValue">[Test]&#xD;
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=26228FC7A3C06544BFE84AB5D80F68A6/Text/@EntryValue">[Fact]&#xD;
 public async Task $TESTNAME$()&#xD;
 {&#xD;
+	// Arrange&#xD;
 	$END$&#xD;
+	// Act&#xD;
+	// Assert&#xD;
 }</s:String>
 	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=26228FC7A3C06544BFE84AB5D80F68A6/Field/=TESTNAME/@KeyIndexDefined">True</s:Boolean>
 	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=26228FC7A3C06544BFE84AB5D80F68A6/Field/=TESTNAME/Order/@EntryValue">0</s:Int64>
@@ -47,13 +50,16 @@ public async Task $TESTNAME$()&#xD;
 	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=26228FC7A3C06544BFE84AB5D80F68A6/Scope/=139FF4CE89E7094686FDA7BF5FFBBE92/Type/@EntryValue">Everywhere</s:String>
 	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=88A02CB029E52C40863DE12B7BF8407A/@KeyIndexDefined">True</s:Boolean>
 	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=88A02CB029E52C40863DE12B7BF8407A/Applicability/=Live/@EntryIndexedValue">True</s:Boolean>
-	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=88A02CB029E52C40863DE12B7BF8407A/Description/@EntryValue">Nunit test</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=88A02CB029E52C40863DE12B7BF8407A/Description/@EntryValue">Xunit test</s:String>
 	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=88A02CB029E52C40863DE12B7BF8407A/Shortcut/@EntryValue">test</s:String>
 	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=88A02CB029E52C40863DE12B7BF8407A/ShortenQualifiedReferences/@EntryValue">True</s:Boolean>
-	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=88A02CB029E52C40863DE12B7BF8407A/Text/@EntryValue">[Test]&#xD;
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=88A02CB029E52C40863DE12B7BF8407A/Text/@EntryValue">[Fact]&#xD;
 public void $TESTNAME$()&#xD;
 {&#xD;
-    $END$&#xD;
+	// Arrange&#xD;
+	$END$&#xD;
+	// Act&#xD;
+	// Assert&#xD;
 }</s:String>
 	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=88A02CB029E52C40863DE12B7BF8407A/Field/=TESTNAME/@KeyIndexDefined">True</s:Boolean>
 	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=88A02CB029E52C40863DE12B7BF8407A/Field/=TESTNAME/Order/@EntryValue">0</s:Int64>
